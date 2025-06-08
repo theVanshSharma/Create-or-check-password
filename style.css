@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0px;
+    font-family: 'poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+.project{
+    display: flex;
+    align-items: center;
+    /* width: 100vh; */
+    height: 100vh;
+}
+
+.left, .right{
+    /* border: solid black 2px; */
+    height: 100%;
+    width: 50%;
+    padding: 5px;
+}
+
+.left{
+    flex: 1;
+    background: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.right{
+    flex: 1;
+    background: white;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pass-generator{
+    padding: 20px;
+    width: 60%;
+    background: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;        
+    align-items: center;           
+    justify-content: center;
+}
+
+.pass-generator h1{
+    padding: 20px;
+    color: black;
+}
+
+.pass-generator img{
+    padding: 10px;
+    width: 200px;
+}
+#create-btn{
+    cursor: pointer;
+}
+.pass-display{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+.pass-display input{
+    border: solid black 4px;
+    border-radius: 10px;
+    width: 200px;
+    height: 30px;
+    font-size: 16px;
+    padding: 10px;
+}
+
+.pass-display img{
+    width: 80px;
+    cursor: pointer;
+}
+
+.pass-checker{
+    padding: 20px;
+    width: 60%;
+    background: black;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;        
+    align-items: center;           
+    justify-content: center;   
+}
+
+.pass-checker h1{
+    padding: 20px;
+    color: white;
+}
+
+.pass-checker img{
+    padding: 10px;
+    width: 200px;
+}
+
+.pass-input{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+.pass-input input{
+    border: solid white 4px;
+    border-radius: 10px;
+    width: 200px;
+    height: 30px;
+    font-size: 16px;
+    padding: 10px;
+}
+
+.pass-input img{
+    width: 80px;
+}
+
+.pass-input button{
+    margin-left: 5px;
+    padding: 5px;
+    border-radius: 5px;
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>password_generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="project">
+        <div class="left">
+            <div class="pass-generator">
+                <h1>generate</h1>
+                <div class="pass-display">
+                    <input type="text" id="generatedpassword" readonly>
+                    <img src="images/copy.png" alt="" class="copy-img">
+                </div>
+                <img src="images/create.png" alt="" id="create-btn">
+            </div>
+        </div>
+        <div class="right">
+            <div class="pass-checker">
+                <h1>check</h1>
+                <div class="pass-input">
+                    <input type="text" id="check-password" placeholder="Enter password">
+                    <button id="checkbtn">check</button>
+                    <img src="" alt="" class="result-img">
+                </div>
+                <p id="strenght-text"></p>
+                <img src="images/check.png" alt="">
+            </div>
+        </div>
+    </div>
+<script src="app.js"></script>
+</body>
+</html>
